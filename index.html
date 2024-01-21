@@ -22,6 +22,10 @@
         .Font-poppins {
             font-family: "Poppins", sans-serif;
         }
+        
+        /* .bg-blakishGradient{
+            background: linear-gradient(180deg, #111 0%, rgba(17, 17, 17, 0.00) 100%);
+        } */
     </style>
 
 </head>
@@ -35,22 +39,22 @@
             <img  src="images/logo2.png" alt="">
             <!-- menu -->
             <div class="flex sm:flex-col lg:flex-row justify-between items-center">
-                <ul class="px-16 flex">
-                    <li class="px-2">Home</li>
-                    <li class=" px-2 flex">Services <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <ul class=" flex">
+                    <li class="">Home</li>
+                    <li class=" flex">Services <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                         <path d="M8.25 4.5L15.75 12L8.25 19.5" stroke="#707070" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                       </svg></li>
-                    <li class="px-2 flex"> Cases
+                    <li class=" flex"> Cases
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                             <path d="M8.25 4.5L15.75 12L8.25 19.5" stroke="#707070" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                           </svg>
                     </li>
-                    <li class="px-2 flex">Blog
+                    <li class=" flex">Blog
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                             <path d="M8.25 4.5L15.75 12L8.25 19.5" stroke="#707070" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                           </svg>
                     </li>
-                    <li class="px-2 flex">Contact Us <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <li class=" flex">Contact Us <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                         <path d="M8.25 4.5L15.75 12L8.25 19.5" stroke="#707070" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                       </svg></li>
                 </ul>
@@ -60,13 +64,28 @@
         </nav>
 
         <!-- banner section -->
-        <!-- <div class="bg-[url('images/banner.png')]" > -->
-        <div class="mx-[20%]" >
-            <img src="images/banner.png" alt="">
-            <h1></h1>
-            <p></p>
-            <input type="text"><button></button>
+        <!-- <div class="bg-[url('images/banner.png')] h-screen bg-cover bg-center bg-no-repeat w-[100%]" > -->
+        <div class= "mx-[20%] relative flex justify-center items-center" >
+                <img class="rounded-lg bg-gradient-to-r from-cyan-500 to-blue-500" src="images/banner.png" alt="">
+
+            <div class="absolute text-white w-[60%] flex gap-5 flex-col justify-center items-center text-center">
+                <h1 class="Font-EB-Garamond text-5xl font-extrabold">We Provide Effective Legal Solutions</h1>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <div class="flex gap-3">
+                    <input class="w-[400px] h-12 rounded-lg pl-5" type="text" placeholder="Search your services">
+                    <button class="bg-[#B68C5A] w-[100px] h-12 rounded-lg text-white text-lg font-semibold">Search
+                </button>
+                </div>
+            </div>
+
+
         </div>
+
+
+        
+
+
+
     </header>
 
     <!-- Main Area -->
